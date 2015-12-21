@@ -1,0 +1,10 @@
+php:
+  build: php
+  ports:
+    - "80:80"
+    - "443:443"
+  extra_hosts:
+    - "tennaxia.dev:172.17.42.1"
+  volumes:
+    - ../t2:/var/www/html/t2
+    - ../t3-frontend:/var/www/html/t3-frontend
