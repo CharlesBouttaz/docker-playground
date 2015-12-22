@@ -6,5 +6,5 @@ php:
   extra_hosts:
     - "tennaxia.dev:172.17.42.1"
   volumes:
-    - ../t2:/var/www/html/t2
+    - ./php/src:/var/www/html
     - ../t3-frontend:/var/www/html/t3-frontend
