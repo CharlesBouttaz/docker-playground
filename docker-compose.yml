@@ -4,7 +4,6 @@ php:
     - "80:80"
     - "443:443"
   extra_hosts:
-    - "tennaxia.dev:172.17.42.1"
+    - "tennaxia.dev:172.17.0.1"
   volumes:
     - ./php/src:/var/www/html
-    - ../t3-frontend:/var/www/html/t3-frontend
